@@ -35,6 +35,8 @@ group :development, :test do
 end
 
 gem 'mongo_mapper', git: "git@github.com:jnunemaker/mongomapper.git" 
+
+gem "bson_ext" 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
