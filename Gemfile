@@ -37,6 +37,8 @@ end
 gem 'mongo_mapper', git: "git@github.com:jnunemaker/mongomapper.git" 
 
 gem "bson_ext" 
+
+gem "genghisapp", "~> 2.3.7"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

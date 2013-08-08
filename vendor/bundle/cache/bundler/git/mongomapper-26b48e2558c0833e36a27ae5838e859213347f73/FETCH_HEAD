@@ -4,7 +4,7 @@ fefec91027f2dd8eb1ab9caa5a4b0acd000f4da7		branch 'embedded-callbacks-optional' o
 e755e1aab0257e575e46777ceab13ea4619cf905		branch 'from-array' of github.com:jnunemaker/mongomapper
 93b9cf6088bf8052ed5dc169f47edfc160142400		branch 'gh-pages' of github.com:jnunemaker/mongomapper
 fad2ccca51304bc4def88c14834986f76f3a4e03		branch 'identity-map' of github.com:jnunemaker/mongomapper
-71e25ce785c29bee793e72e6ee752751908abc04		branch 'master' of github.com:jnunemaker/mongomapper
+9b87dee507802a8cb96f2d316802c9fd241448c8		branch 'master' of github.com:jnunemaker/mongomapper
 27322365c01a72174e8e74637796772c31489cd7		branch 'rails2' of github.com:jnunemaker/mongomapper
 b3ab248dd9071a7b45578a5415aab37f5f40e656		branch 'rails3' of github.com:jnunemaker/mongomapper
 22040344b237e947de5471c91d0cc0b0b3355fd0		branch 'rspec' of github.com:jnunemaker/mongomapper
@@ -18,6 +18,7 @@ bb8104889565ee1548afad792753dd775ff18b1c	not-for-merge	tag 'v0.11.1' of github.c
 142aa684b3a4593556bdd59721014949afdacff7	not-for-merge	tag 'v0.11.2' of github.com:jnunemaker/mongomapper
 fb517eed162ba193a7e8e85bb75de8abe3127a20	not-for-merge	tag 'v0.12.0' of github.com:jnunemaker/mongomapper
 f08b34815e3a36cc94a5ed70e334700a664fa856	not-for-merge	tag 'v0.13.0.beta1' of github.com:jnunemaker/mongomapper
+9b87dee507802a8cb96f2d316802c9fd241448c8	not-for-merge	tag 'v0.13.0.beta2' of github.com:jnunemaker/mongomapper
 054f32bb179fb88ffd41cce2b267c1748dbc8836	not-for-merge	tag 'v0.2.0' of github.com:jnunemaker/mongomapper
 cf5db75b15f7246f450e74f2a32d295ebad84c0d	not-for-merge	tag 'v0.3.0' of github.com:jnunemaker/mongomapper
 e8f1668fb9c9ba11f1f6502bea38ee14ad60a2cb	not-for-merge	tag 'v0.3.1' of github.com:jnunemaker/mongomapper
