@@ -12,7 +12,7 @@ class CategoriesController < ApplicationController
 	end
 
 	def index
-		@flashcard = Flashcard.all
-		@flashcard 
+		@category = Category.all
+		
 	end
 end

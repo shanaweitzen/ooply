@@ -6,8 +6,7 @@ class SiteController < ApplicationController
 	def about
 	end
 
-	def categories
-	end
+	
 
 	
 end
