@@ -4,5 +4,7 @@ Ooply::Application.routes.draw do
   
   get "about" => "site#about"
 
-  get "categories" => "site#categories"
+  get "categories" => "categories#index"
+
+  get "categories/:name" => "categories#show"
 end
