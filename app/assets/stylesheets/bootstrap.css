@@ -2841,6 +2841,7 @@ button.close {
 
 .navbar-nav.pull-right {
   width: 100%;
+  color: white;
 }
 
 .navbar-static-top {
@@ -2883,13 +2884,13 @@ button.close {
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
-  color: #777777;
+  color: white;
   text-align: center;
 }
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-  color: #5e5e5e;
+  color: white;
   text-decoration: none;
   background-color: transparent;
 }

@@ -1,14 +1,10 @@
 class CategoriesController < ApplicationController
 	def show
-		# params[:id]
 		
-		@flashcards = Category.where(:name => params[:name]).first.flashcards
+		
+		@category = Category.find_by_name(params[:id])
 
-
-		# @flashcard = Flashcard.all 
-		# @flashcard = find_by(category_id)
-		# @flashcard
-
+	
 	end
 
 	def index

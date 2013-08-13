@@ -1,6 +1,11 @@
-<% @flashcards.each do |card| %>
 
-<div>
-	<%= card.term %>
-</div>
-<%end%> 
+ <% @category.flashcards.each do |card| %>
+ 	<div class="category-name"> 
+ 		<%= card.category.name %> 
+ 	</div>
+ 	<div class="row">
+	<div class="card">
+ 		 <%= card.term %> 
+ 	</div>
+ </div>
+ <%end%> 

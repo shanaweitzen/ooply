@@ -1,6 +1,9 @@
-require 'spec-helper'
+class CategoriesController
+require 'spec_helper'
 
-describe FlashCard do 
-	
+	describe FlashCard do 
 
+		
+
+	end
 end
