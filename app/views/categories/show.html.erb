@@ -1,11 +1,28 @@
+<div class="container">
+	<div class="row">	
+		<div class="category-name"> 
+		 	<h1><%= @category.name %></h1>
+		</div>
+	 </div>
+	 <div class="row" id="card_holder">
+		 <% @category.flashcards.each do |card| %>
+		 	
+		 	<div class="card_holder">
+				<div class="card">
+			 		
+			 		<div class="front">
+			 		 	<%= card.term %> 
+			 		 	<!-- <a href="#" class="answer">flip</a> -->
+			 		</div>
+			 		<div class="back">
+			 			<%= card.definition %>
+			 			<!-- <a href="#" class="back">back</a> -->
+			 		</div>
+			 	</div>
+			  </div>
+		<%end%>
+	 	
+	</div>
 
- <% @category.flashcards.each do |card| %>
- 	<div class="category-name"> 
- 		<%= card.category.name %> 
- 	</div>
- 	<div class="row">
-	<div class="card">
- 		 <%= card.term %> 
- 	</div>
- </div>
- <%end%> 
+</div> 
+

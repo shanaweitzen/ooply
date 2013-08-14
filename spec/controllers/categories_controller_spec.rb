@@ -8,7 +8,7 @@ describe CategoriesController do
 	end
 end
 
-	it "returns only one term in the @category" do
+	it returns only one term in the @category" do
 
 end
 		

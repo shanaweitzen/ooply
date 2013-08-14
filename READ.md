@@ -2,3 +2,4 @@ OOPLY is a flashcard app designed to be a study tool for basic web development c
 
 OOPLY uses mongomapper.  
 
+Rials 4 
