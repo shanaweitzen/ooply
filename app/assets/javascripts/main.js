@@ -15,15 +15,14 @@ $(document).ready(function(){
 			card = $('.card_holder').last().detach();
 			$('.card_holder').first().before(card)
 	});
+
+	
 }); // ends the document.ready function 
 
 
 
-// card # 
-// $(#cardA).hide();
-// $(#cardB).show();
 
-// next week make a branch 
+
 
 
 

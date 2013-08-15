@@ -2,9 +2,9 @@
 9844b2aa756f618d9c6cbe9814df07b592da84d1		branch 'association-each-not-yielding' of github.com:jnunemaker/mongomapper
 fefec91027f2dd8eb1ab9caa5a4b0acd000f4da7		branch 'embedded-callbacks-optional' of github.com:jnunemaker/mongomapper
 e755e1aab0257e575e46777ceab13ea4619cf905		branch 'from-array' of github.com:jnunemaker/mongomapper
-93b9cf6088bf8052ed5dc169f47edfc160142400		branch 'gh-pages' of github.com:jnunemaker/mongomapper
+7e5f4b27f1009f92096a87835310d5768754b912		branch 'gh-pages' of github.com:jnunemaker/mongomapper
 fad2ccca51304bc4def88c14834986f76f3a4e03		branch 'identity-map' of github.com:jnunemaker/mongomapper
-9b87dee507802a8cb96f2d316802c9fd241448c8		branch 'master' of github.com:jnunemaker/mongomapper
+97ebe75eae4ba89ce536241460e0c49a782229e8		branch 'master' of github.com:jnunemaker/mongomapper
 27322365c01a72174e8e74637796772c31489cd7		branch 'rails2' of github.com:jnunemaker/mongomapper
 b3ab248dd9071a7b45578a5415aab37f5f40e656		branch 'rails3' of github.com:jnunemaker/mongomapper
 22040344b237e947de5471c91d0cc0b0b3355fd0		branch 'rspec' of github.com:jnunemaker/mongomapper
