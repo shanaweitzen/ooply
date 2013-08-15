@@ -3,10 +3,14 @@ body{
 	margin: 0 auto;
 	width: 100%
 }	
+#card_holder{
+	height:430px;
+}
 .card_holder{
 	-webkit-perspective: 1000;
 	position: absolute;
 	background-color: white; 
+
 }
 
 .front, .back{
