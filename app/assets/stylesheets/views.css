@@ -1,10 +1,42 @@
 body{
-	background-color: transparent;
+	/*background-color: transparent;
+	margin: 0 auto;*/
+	/*width: 1020px;*/
+
+
+} 
+/*button{
+	color: #2BCE92;
+}*/
+a:hover: {
+	color:#2BCE92;
+}
+#container{
+
+}
+#h1{
+	font-size:45px;
 	margin: 0 auto;
-	width: 100%
-}	
+	padding-bottom: 35px;
+	padding-top: 100px;
+}
+/*h1{
+	margin: 0 auto;
+}*/
+#category-name{
+	/*font-size: 20px;*/
+	margin: 0 auto;
+	/*margin-left: 440px;*/
+	margin-left: 840px;
+	color:	 #6599FF;
+
+}
 #card_holder{
+	width:700px;
 	height:430px;
+	/*margin-left: 175px;*/
+	margin: 0 auto;
+	/*padding-top:103px;*/
 }
 .card_holder{
 	-webkit-perspective: 1000;
@@ -14,7 +46,6 @@ body{
 }
 
 .front, .back{
-
 	width:780px;
 	height: 400px;
 }
@@ -51,13 +82,19 @@ image_tag {
 	margin: 0 auto;
 }
 
-.btn{
+}
+button.btn.pull-left{
+	background-color: #2BCE92;
+}
+.btn, button .back-button .pull-left{
+	color:black;
 	background-color: #2BCE92;
 	font-size:18px;
 	width:100px;
 	padding-top:11px;
 
 }
+
 .image{
 	background-image: url("lock.jpg");
 	/*max-width: 100%;*/
@@ -66,13 +103,13 @@ image_tag {
 .navbar-fixed-top{
 	
 	font-size: 16px;
-	padding: 15px;
+	/*padding: 15px;*/
 	background-color: black;
 }
 .navbar-brand{
-	font-size: 30px;
+	font-size: 44px;
 	color: white;
-	left: 2px;
+	margin-left: 35px;
 }
 
 
@@ -83,10 +120,13 @@ li{
 	font-size: 24px;
 }
 .categories{
+	padding-top:58px;
+	padding-left: 30px;
 	margin: 0 auto;
 	font-size: 30px;
 }
 .fc{
+	margin:0 auto;
 	width: 780px;
 	height: 400px;
 	background-color: white;

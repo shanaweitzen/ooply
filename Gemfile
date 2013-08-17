@@ -20,7 +20,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -39,7 +39,11 @@ gem 'mongo_mapper', git: "git@github.com:jnunemaker/mongomapper.git", ref: 'e0d7
 gem "bson_ext" 
 
 gem "genghisapp", "~> 2.3.7"
-# Use ActiveModel has_secure_password
+
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+
+
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server

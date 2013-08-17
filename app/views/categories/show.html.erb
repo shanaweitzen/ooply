@@ -1,7 +1,7 @@
-<div class="container">
+<div id="container">
 	<div class="row">	
-		<div class="category-name"> 
-		 	<h1><%= @category.name %></h1>
+		<div id="category-name"> 
+		 	<h1 id="h1"><%= @category.name %></h1>
 		</div>
 	 </div>
 	 <div class="row" id="card_holder">
@@ -12,8 +12,7 @@
 			 		
 			 		<div class="front">
 			 		 	<%= card.term %> 
-			 		 	 <span class="add-on"><i class="icon-envelope"></i></span>
-			 		 	<i class="icon-hand-up"></i>
+			 		  	<i class="icon-hand-up"></i>
 			 		</div>
 			 		<div class="back">
 			 			<%= card.definition %>
@@ -24,11 +23,17 @@
 
 	</div>
 		<div class="row">
-					  	<div class="next">
-					  			<button class="btn" type="button">
+				<div class="next">
+					  	<button class="btn pull-right" type="button">
 					  				Next
-					  			</button>
-					  		</div>
-						</div>
+					  	</button>
+				</div>
+				<div class="back-button">
+					<button class="btn pull-left" type="button">
+						Back
+					</button>
+				</div>
+		</div>
+			
 </div> 
 

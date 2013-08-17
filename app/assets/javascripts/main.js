@@ -16,7 +16,10 @@ $(document).ready(function(){
 			$('.card_holder').first().before(card)
 	});
 
-	
+	$('.back-button').click(function(){
+		card = $('.card_holder').first().detach();
+		$('.card_holder').last().after(card)
+	});
 }); // ends the document.ready function 
 
 
