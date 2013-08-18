@@ -40,8 +40,7 @@ gem "bson_ext"
 
 gem "genghisapp", "~> 2.3.7"
 
-gem "therubyracer"
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+
 
 
 # gem 'bcrypt-ruby', '~> 3.0.0'
