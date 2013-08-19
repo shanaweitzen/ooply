@@ -1,9 +1,41 @@
-<div class="navbar-fixed-top">
-		<h1><%= link_to "Ooply", root_path %></h1>
-		<!-- <a href="#" class="navbar-brand">Ooply</a> -->
+<!-- <header>
+	<div class="row">	
+		<div id="ooply"><%= link_to "Ooply", root_url %></div>
+			<nav class="menu_right">
+				<ul>
+					<li>Settings</li>
+					<li><%= link_to 'About', about_path %></li>
+					<li><%= link_to 'Categories', categories_path %>
+					</li>	
+
+				</ul>
+		</nav>	
+	</div>	
+</header> -->
+
+<!-- <div class="navbar-fixed-top">
+		<div id ="title"><%= link_to "Ooply", root_path %></div>
 		<ul class="nav navbar-nav pull-right">
 			<li><%= link_to "About", about_path %></li>
 			<li><%= link_to "Categories", categories_path %></li>
 			
 		</ul>
-</div>
+</div> -->
+
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="brand"><%= link_to "Ooply", root_path %></a>
+      <div class="nav pull-right">
+        <ul class="nav">
+          <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "Categories", categories_path %></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Log out</a></li>
+        </ul>
+      </div> <!-- .nav-collapse -->
+     </div>
+  </div>
+</div> 
