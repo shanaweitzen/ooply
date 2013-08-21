@@ -179,6 +179,7 @@ textarea {
   a,
   a:visited {
     text-decoration: underline;
+
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -232,9 +233,10 @@ body {
 }
 
 a {
+  /*color:#2BCE92;*/
   /*color:#ffffff;*/
-
-  color: #0088cc;
+  color:#6599FF;
+  /*color: #0088cc;*/
   text-decoration: none;
 }
 
@@ -768,7 +770,7 @@ h3 {
 }
 
 h1 {
-  font-size: 38.5px;
+  font-size: 25.5px;
 }
 
 h2 {
@@ -2286,7 +2288,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }

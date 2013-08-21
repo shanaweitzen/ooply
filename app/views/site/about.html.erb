@@ -1,2 +1,46 @@
-<h1>Site#about</h1>
-<p>Find me in app/views/site/about.html.erb</p>
+
+
+	<div id="front-fc">
+				<div class="row" id="card_holder">
+			 		<div class="card_holder">
+							<div class="card">	
+						 		<div class="front">
+						 		 	<h1> Ooply </h1>
+									<h6 class="bubble_img"><%= image_tag("lightbulb.png")%></h6>
+						 		</div>
+						 		<div class="back">
+						 			<h1> Oop*ly</h1> <h2 class="audio_icon"><%=image_tag("audio_icon.png")%></h2> <h1>ooo-p-ly</h1> 
+						 		</div>
+						 	</div>  
+						  </div> 
+				</div> <!-- ends id card_holder -->
+		</div>
+			<button type="button" class="playHere white btn"><%= link_to "Play Today", categories_path %>
+			</button>
+
+			<table>
+				<tr>
+				  <td class="location"><%=image_tag("icon-mobile.png")%></td>
+				  <td class="knowAbout"><%=image_tag("icon-tree.png")%></td>
+				  <td class="remindAbout"><%=image_tag("icon-know.png") %></td>
+				</tr>
+				<tr>
+					<td class="location"><p>Learn</p></td>
+					<td class="know"><p>Conserve</p></td>
+					<td class="remind"><p>Produce</p></td>
+				</tr>
+			</table>
+
+			<!-- <table class="ooplyDef">
+				<tr>
+					<td><h1> Oop*ly</h1></td>
+					<td><h6 class="audio_icon"><%=image_tag("audio_icon.png")%></h6>
+					</td>
+					<td>
+						<h5>ooo-p-ly</h5>
+					</td>
+
+				</tr>
+
+			</table> -->
+

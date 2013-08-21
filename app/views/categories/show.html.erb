@@ -11,29 +11,40 @@
 				<div class="card">
 			 		
 			 		<div class="front">
-			 		 	<%= card.term %> 
-			 		  	
+			 		 	<%= card.term %>  
+			 		 	<p class="handClick"><%= image_tag("handclick.png")%></p>
+
 			 		</div>
 			 		<div class="back">
 			 			<%= card.definition %>
+			 			<% unless card.image.nil? %>
+			 		 		<%= image_tag(card.image) %>
+			 		 	<% end %>
 			 		</div>
 			 	</div> <!-- ends class card --> 
 			  </div> <!-- ends class card_holer -->
 		<%end%>	
-
-	</div>
-		<div class="row">
-				<div class="next">
-					  	<button class="btn pull-right" type="button">
-					  				Next
-					  	</button>
-				</div>
-				<div class="back-button">
-					<button class="btn pull-left" type="button">
-						Back
-					</button>
-				</div>
+	</div> <!--ends id card_holder -->
+		<table class="nb-buttons">
+	<tr>
+		<td>
+			<div class="row">
+				<div class=" back-button">
+			<button class="btn" type="button">
+					  				Back
+			</button>
 		</div>
+	    </td>
+	    <td>
+	    	<div class="next">
+	    	<button class="btn" type="button">
+	    		Next
+	    	</button>
+	    </div>
+	    </td>
+		</div>
+	</tr>
+</table>
 			
-</div> 
+</div> <!-- ends container -->
 
