@@ -39,7 +39,7 @@ gem "bson_ext"
 
 gem "genghisapp", "~> 2.3.7"
 
-
+gem "rails_12factor"
 
 
 # gem 'bcrypt-ruby', '~> 3.0.0'
