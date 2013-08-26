@@ -34,7 +34,7 @@ group :development, :test do
 	gem 'rspec-rails'
 end
 
-+gem 'mongo_mapper', git: "git@github.com:jnunemaker/mongomapper.git" , ref: 'e0d7db141b2c330eb44773ef00d1b179bbdf9209'
+gem 'mongo_mapper', git: "git@github.com:jnunemaker/mongomapper.git" , ref: 'e0d7db141b2c330eb44773ef00d1b179bbdf9209'
 # gem 'mongo_mapper'
 gem "bson_ext" 
 
