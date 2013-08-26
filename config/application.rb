@@ -12,9 +12,9 @@ require "bson"
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-config.generators do |g|
-    g.orm :mongo_mapper
-end
+# config.generators do |g|
+#     g.orm :mongo_mapper
+# end
 
 module Ooply
   class Application < Rails::Application
