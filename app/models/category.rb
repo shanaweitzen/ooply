@@ -2,7 +2,7 @@ class Category
 	include MongoMapper::Document
 	many :flashcards
 
-	key :name , String
+	key :name, String
 	
 end
 
