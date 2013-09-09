@@ -30,14 +30,15 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :development, :test do
-	gem 'rspec-rails'
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
 end
 
-#gem 'mongo_mapper', git: "git@github.com:jnunemaker/mongomapper.git", ref:'e0d7db141b2c330eb44773ef00d1b179bbdf9209'
 gem 'mongo_mapper', github: 'jnunemaker/mongomapper', ref: 'e0d7db141b2c330eb44773ef00d1b179bbdf9209'
 
-# gem 'mongo_mapper'
 gem "bson_ext" 
 
 gem "genghisapp", "~> 2.3.7"
@@ -45,7 +46,7 @@ gem "genghisapp", "~> 2.3.7"
 gem "rails_12factor"
 
 
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'

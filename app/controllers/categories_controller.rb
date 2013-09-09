@@ -9,5 +9,9 @@ class CategoriesController < ApplicationController
 		@category = Category.find_by_name(CGI::unescape(params[:id]))
 	end
 
+	# def update
+	# 	@category = Category.find_by_name "rails-directory/structure"
+	# end
+
 
 end
