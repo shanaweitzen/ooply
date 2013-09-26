@@ -7,21 +7,49 @@ div.categories{
 }
 body{
 	padding-bottom: 90px; 
+	padding-top: 20px;
 }
+button{
+	text-decoration: none;
+}
+div.back p{
+	margin-top: 7px;
+	line-height: 30px;
+}
+div.back{
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+button.btn, button.btn:hover{
+	background:#2BCE92;
+	text-decoration: none;
+}
+a, a:hover, a.white, a.white:hover{
+	text-decoration: none;
+	color: white;
+}
+button#btn.btn{
+	width: 550px;
+	margin:0 auto;
+}
+button.btn:hover
 .white a{
 	color:white;
 }
 .icon_remind{
 	margin-left: 10px;
 }
-.location{
-	line-height: 22px;
-	width:200px;
-	padding-left: 349px;
-	/*padding-left: 375px;*/
-	padding-right: 12px;
-	font-size: 18px;
+.location, .remind, .know{
+	height: 20px;
 }
+button.playHere.white.btn a , button.playHere.white.btn a:hover:{
+	text-decoration: none;
+
+}
+
 .know-text{
 	line-height: 22px;
 	width:208px;
@@ -29,31 +57,28 @@ body{
 	padding-right: 5px;
 	padding-left: 5px;
 }
-.location p, .know-text p, .remind p, .know p{
+/*.location p, .know-text p, .remind p, .know p{
 	margin-bottom: 24px;
 	color:#999;
 
+}*/
+.location{
+	/*background: url('icon-mobile.png') no-repeat;*/
 }
+
+.know{
+	/*background: url("icon-know.png") no-repeat;*/
+
+}
+
  .knowAbout, .remindAbout{
 	margin-top: 20px;
 }
-.know p{
-	font-size: 18px;
-}
-td{
-	width: 210px;
-}
-/*tr{
-	line-height: 22px;
-	width: 230px;
-	padding-left: 375px;
-}*/
+
+
 .remind{
-	line-height: 22px;
-	width: 187px;
-	/*width: 260px;*/
-	float: right;
-	font-size: 18px;
+
+	/*background-image: url("icon-remind.png") no-repeat;*/
 }
 .white {
 	color:white;
@@ -62,8 +87,12 @@ button{
 	background-color: #2BCE92;
 	color: white;
 }
+a{
+	text-decoration: none;
+}
 a, a:hover: {
 	color:#2BCE92;
+	text-decoration: none;
 }
 
 #h1{
@@ -151,7 +180,9 @@ image_tag {
 .back-button{
 	float:left;
 }
-
+div.categories a{
+	text-decoration: none;
+}
 button.btn.pull-left, .button.btn.pull-right{
 	background-color: #2BCE92;
 }
@@ -263,10 +294,16 @@ button.btn.ooply{
 	background-color: #F21F55;
 
 } 
+button.btn, button.btn:hover, button.btn a{
+	color:white;
+	height: 40px;
+	font-size: 18px;
+	text-decoration: none;
+}
 button.playHere.white.btn{
-  width:500px;
+  /*width:500px;*/
   height:35px;
-  margin-left:393px;
+  /*margin-left:330px;*/
   margin-top:10px;
   margin-bottom: 14px;
   padding-top: 10px;
@@ -278,7 +315,9 @@ button.playHere.white.btn{
 td{
 	padding-left: 37px;
 }
-
+li.icon-mobile{
+	/*background-image: url("icon-mobile.png");*/
+}
 .imgAbout div{
 	display: inline;
 
@@ -319,3 +358,5 @@ td{
 	margin-right: 116px;
 	font-size:18px;
 }
+
+/* ----------------------- */

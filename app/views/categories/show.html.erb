@@ -1,9 +1,11 @@
+<div class="container">
 <div id="container">
 	<div class="row">	
 		<div id="category-name"> 
 		 	<h1 id="h1"><%= @category.name %></h1>
 		</div>
 	 </div>
+
 	 <div class="row" id="card_holder">
 		 <% @category.flashcards.each do |card| %>
 		 	
@@ -47,4 +49,15 @@
 </table>
 			
 </div> <!-- ends container -->
+</div>
 
+<div class="row">
+		<div class = "span3 location">
+			
+		</div>
+				<div class = "span3 know">
+			
+		</div>
+				<div class = "span3 remind">
+			
+		</div>

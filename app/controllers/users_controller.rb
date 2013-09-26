@@ -23,7 +23,7 @@ class UsersController < ApplicationController
 	end
 
 	def edit
-		# @registrant = Registrant_find_by(code: params)
+		@registrant = Registrant_find_by(code: params)
 	end
 
 	private

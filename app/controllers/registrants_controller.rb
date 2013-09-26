@@ -10,11 +10,12 @@ class RegistrantsController < ApplicationController
   	@registrant.code = SecureRandom.urlsafe_base64 
   	@registrant.expires_at = Time.now + 4.hours
   	if @registrant.save
-  		puts "\n\n send email\n\n"
+  		puts "\n\n send email \n\n"
   		RegistrantMailer.registrant_email(@registrant).deliver
   		redirect_to root_url, notice:"We've sent an email"
   		#add a flash notice saying check your email 
   	else
+      puts " else"
   		flash.now[:alert] = "Please enter a valid email"
   		render :new
   	end
@@ -40,15 +41,18 @@ class RegistrantsController < ApplicationController
 
   private
   def registrant_params
-  	params.require(:registrant).permit(:email)
+  	params.require(:registrant).permit(
+      :email
+    )
   end
 
    def user_params
-    params.require( :user ).permit( 
+    params.require(:user).permit( 
       :password, 
       :password_confirmation,
-      :username,
-      :name
+      :first_name,
+      :last_name,
+      :email
       )
 end
 end

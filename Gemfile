@@ -48,6 +48,10 @@ gem "rails_12factor"
 
 gem 'bcrypt-ruby', '~> 3.0.0'
 
+gem 'rabl'
+
+gem 'oj'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 

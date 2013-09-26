@@ -1,7 +1,10 @@
-<p>Register</p>
+<div class="container">
+	<p>Register</p>
+	<div class="register">
+		<%= form_for @registrant, url: register_path, method: :post do |f| %>
+		<%= f.text_field :email, class:"email", placeholder: "Your Email" %>
+		<%= f.submit "Register", class: "btn btn-primary" %>
+		<% end %>
+	</div>	
+</div>
 
-<%= form_for @registrant, url: register_path, method: :post do |f| %>
-<%= f.text_field :email, class:"email", placeholder: "Your Email" %>
-<%= f.submit "Register", class: "btn btn-primary" %>
-
-<% end %>

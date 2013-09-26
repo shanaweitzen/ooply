@@ -1,6 +1,8 @@
+<div class="container">
 <% @category.each do |c| %>
 	<div class="categories">
 		<%= link_to c.name, category_path(CGI.escape(c.name)) %>
 	</div>
 <% end %>
 
+</div>

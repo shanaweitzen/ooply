@@ -19,3 +19,9 @@ $(document).ready(function(){
 		$('.card_holder').last().after(card)
 	});
 }); // ends document ready 
+
+	function regisrant_sent(){
+	$('.register form').submit();
+	$('.email').val("");
+	return false;
+}

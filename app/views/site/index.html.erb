@@ -1,49 +1,43 @@
-<!DOCTYPE html >
-<html lang ="en">
-<head>
-		
-</head>
-
-	<body>	
-		<%= render 'layouts/header' %>
-		<div id="front-fc">
-			<div class="row" id="card_holder">
-		 		<div class="card_holder">
-						<div class="card">	
-					 		<div class="front">
-					 		 	<h1> active recall </h1>
-								<h6 class="bubble_img"><%= image_tag("bubble.png")%></h6>
-					 		</div>
-					 		<div class="back">
-					 			<h1> the process in which pieces of information are actively retrieved from memory as opposed to passive review. For example, reading a text about George Washington, with no further action, is passive review. Answering the question "Who was the first US President?", is active recall.Active recall is very efficient in consolidating long-term memory. </h1>
-					 		</div>
-					 	</div>  
-					  </div> 
-			</div> <!-- ends id card_holder -->
+<div class="container">
+<div class="span12" id="front-fc">
+	<div class="row" id="card_holder">
+		<div class="card_holder">
+				<div class="card">	
+					<div class="front">
+						<h1> active recall </h1>
+						<h6 class="bubble_img"><%= image_tag("bubble.png")%></h6>
+					</div>
+					<div class="back">
+						<p> the process in which pieces of information are actively retrieved from memory as opposed to passive review. For example, reading a text about George Washington, with no further action, is passive review. Answering the question "Who was the first US President?", is active recall.Active recall is very efficient in consolidating long-term memory. </p>
+					</div>
+				</div>  
+			  </div> 
+	</div> <!-- ends id card_holder -->
+</div>
+<div class="row">
+<div class="offset3">
+<button type="button" class="btn" id="btn"><%= link_to "Play Today", categories_path %></button>
+</div>
+</div>
+<div class="row">
+	<div class = "offset2 span3 location">
+		<li class="icon-mobile"><%= image_tag("icon-mobile.png") %></li>
+		<h4>convert your phone into a flashcard.</h4>
+		  	<p>Access all of your terms and definitions in the one place you the most: your phone.</p><p>Mobilize your studying.</p>
 	</div>
-
- 	<button type="button" class="playHere white btn"><%= link_to "Play Today", categories_path %></button>
-	<table>
-		<tr>
-		  <td class="location"><h5 class="icon_mobile"><%= image_tag("icon-mobile.png") %></h5></td>
-		  <td class="know"><h5 class="know_icon"><%= image_tag("icon-know.png")%></h5></td>
-		  <td class="remind"><div class="icon_remind"><%= image_tag("icon-remind.png") %></div></td>
-		</tr>
-		<tr>
-		  <td class="location"><h4>convert your phone into a flashcard.</h4><p>Access all of your terms and definitions in the one place you the most: your phone.</p><p>Mobilize your studying.</p></td>
-		  <td class="know-text"><h4>see results. meet your goals. </h4><p> using flashcards as a study tool proves  especially effective for visual learners.Learning should be empowering. Play to your strengths.</p></td>
-		  <td class="remind"><h4>learn more. reatain more.</h4><p>Flashcards engage metacognitive faculties. </p></td>
-		</tr>
-	</table>
-
-
- 		
-
+			<div class = "span3 know">
+					<li class="icon-know"><%= image_tag("icon-know.png")%></li>
+					<h4>see results. meet your goals. </h4>
+			  	<p> using flashcards as a study tool proves  especially effective for visual learners.Learning should be empowering. Play to your strengths.</p>
+			
+		</div>
+				<div class = "span3 remind">
+					<li class="icon-remind"><%= image_tag("icon-remind.png")%></li>
+					<h4>learn more. reatain more.</h4>
+			  	<p>Flashcards engage metacognitive faculties. 
+			  	</p>
+		</div>
+	</div>
 		
 
-      
-    
-
-	
-</body>
-</html>
+	</div> <!-- close the container -->

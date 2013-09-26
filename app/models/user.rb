@@ -1,18 +1,19 @@
 class User
   include MongoMapper::Document
 
+  attr_accessor :password
   before_save :encrypt_password
-  attr_accessor :password, :password_confirmation
-
-  key :username, String
-  key :name, String
+  
+  
+  key :first_name, String
+  key :last_name, String
   key :email, String, unique: true
   key :fish, String
   key :salt, String
   key :expires_at, Time
   
   timestamps!
-  many :messages
+  # many :messages
 
   validate :validate_confirmation
   
