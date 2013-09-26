@@ -19,4 +19,4 @@ test:
 # set these environment variables on your prod server
 
 production:
-  uri: <%= ENV['MONGOHQ_URL'] %>
+  uri: <%= ENV['mongodb://heroku:84dba41a7fcf15fac60c0517fa11524c@paulo.mongohq.com:10059/app17668763'] %>
