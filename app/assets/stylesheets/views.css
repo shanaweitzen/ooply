@@ -34,6 +34,7 @@ a, a:hover, a.white, a.white:hover{
 button#btn.btn{
 	width: 550px;
 	margin:0 auto;
+	margin-bottom: 26px;
 }
 button.btn:hover
 .white a{

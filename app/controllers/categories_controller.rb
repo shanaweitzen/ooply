@@ -9,7 +9,12 @@ class CategoriesController < ApplicationController
 		@category = Category.find_by_name(CGI::unescape(params[:id]))
 	end
 
+	def new
+		@category = Category.new
+	end
+
 	def create
+		@category = Category.new(category_params)
 	end
 
 	def update
@@ -19,5 +24,7 @@ class CategoriesController < ApplicationController
 	# 	@category = Category.find_by_name "rails-directory/structure"
 	# end
 
-
+private
+	def category_params
+	end
 end

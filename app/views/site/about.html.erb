@@ -1,56 +1,52 @@
-	<div class="container">
-	<div id="front-fc">
-		<div class="row" id="card_holder">
-	 		<div class="card_holder">
-					<div class="card">	
-				 		<div class="front">
-				 		 	<h1> Ooply </h1>
-							<h6 class="bubble_img"><%= image_tag("lightbulb.png")%></h6>
-				 		</div>
-				 		<div class="back">
-				 			 <table class="ooplyDef">
-								<tr>
-								<td>
-									<h1> Oop*ly</h1>
-								</td>
-								<td>
-									<h6 class="audio_icon"><%=image_tag("audio_icon.png")%></h6>
-								</td>
-								<td>
-									<h5 class="oopSpelling">
-										[ooo-p-ly]
-									</h5>
-								</td>
-								</tr>
-								<tr>
-									<td>
-										<h4><i>noun</i></h4>
-									</td>
-								</tr>
-							</table> 
-									<p>
-										a flashcard app designed to help to help Shana learn rails and other topics related to the course. She still has more to learn and needs to add more terms and categories. She plans to continue working on this project and promises that the real about page will not have this information. 
-									</p> 
-						 		</div>
-						 	</div>  
-						  </div> 
-				</div> <!-- ends id card_holder -->
-		</div>
-			<button type="button" class="btn"><%= link_to "Play Today", categories_path %>
-			</button>
-
-			<table>
-				<tr>
-				  <td class="location"><%=image_tag("icon-mobile.png")%></td>
-				  <td class="knowAbout"><%=image_tag("icon-tree.png")%></td>
-				  <td class="remindAbout"><%=image_tag("icon-know.png") %></td>
-				</tr>
-				<tr>
-					<td class="location"><p>Learn</p></td>
-					<td class="know"><p>Conserve</p></td>
-					<td class="remind"><p>Produce</p></td>
-				</tr>
-			</table>
-
-			
+<div class="container">
+<div id="front-fc">
+<div class="row" id="card_holder">
+	<div class="card_holder">
+		<div class="card">	
+	 		<div class="front">
+	 		 	<h1> Ooply </h1>
+				<h6 class="bubble_img"><%= image_tag("lightbulb.png")%></h6>
+	 		</div>
+	 		<div class="back">
+	 			 <div class="row">
+					<div class="offset2 span2">
+						<h1> Oop*ly</h1>
+					</div>
+				</div>
+					<div class="row">
+						<div class="offset2 span2">
+							<h4><i>noun</i></h4>
+						</div>
+				</div>
+			<p>
+				a flashcard app designed to help to help Shana learn rails and other topics related to the course. She still has more to learn and needs to add more terms and categories. She plans to continue working on this project and promises that the real about page will not have this information. 
+			</p> 
+ 		</div>
+ 	</div>  
+  </div> 
+	</div> <!-- ends id card_holder -->
 </div>
+<div class="row">
+<div class="offset3">
+<button type="button" class="btn" id="btn"><%= link_to "Play Today", categories_path %></button>
+</div>
+
+<div class="row">
+	<div class = "offset3 span3 location">
+		<li class="icon-mobile"><%=image_tag("icon-mobile.png")%></li>
+		<h4>Learn.</h4>
+		  	
+	</div>
+			<div class = "span3 know">
+					<li class="icon-know"><%=image_tag("icon-tree.png")%></li>
+					<h4>Conserve. </h4>
+			  	
+		</div>
+				<div class = "span3 remind">
+					<li class="icon-remind"><%=image_tag("icon-know.png") %></li>
+					<h4>Produce.</h4>
+			  	
+		</div>
+	</div>
+
+
